@@ -37,3 +37,16 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Ignore r studio project files
+*.Rproj
+
+# Ignore html files
+*.html
+
+# Ignore all data files in the test and train folders
+data/test/**
+data/train/**
+
+# Ignore any zip files
+*.zip
